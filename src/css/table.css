@@ -1,0 +1,24 @@
+.table {
+    height: 380px;
+    overflow-y: scroll;
+}
+
+.table__head {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.table tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table td {
+    padding: 8px;
+}
+
+.table__row:nth-of-type(odd) {
+    background-color: #f1f3f6;
+}

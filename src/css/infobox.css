@@ -1,0 +1,16 @@
+.infobox {
+    width: 240px;
+    height: 160px;
+}
+
+.infobox:nth-child(1) {
+    border-top: 8px solid #1e90ff;
+}
+
+.infobox:nth-child(2) {
+    border-top: 8px solid #17ce17;
+}
+
+.infobox:nth-child(3) {
+    border-top: 8px solid red;
+}
